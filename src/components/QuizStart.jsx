@@ -23,7 +23,7 @@ function QuizStart({ onStart }) {
             <div className="flex items-center justify-center mb-4">
               <BookOpen className="w-8 h-8 text-blue-600" />
             </div>
-            <div className="text-2xl font-bold text-blue-800 mb-1">10</div>
+            <div className="text-2xl font-bold text-blue-800 mb-1">2</div>
             <div className="text-gray-700">Questions</div>
           </div>
 
@@ -31,7 +31,7 @@ function QuizStart({ onStart }) {
             <div className="flex items-center justify-center mb-4">
               <Clock className="w-8 h-8 text-purple-600" />
             </div>
-            <div className="text-2xl font-bold text-purple-800 mb-1">10:00</div>
+            <div className="text-2xl font-bold text-purple-800 mb-1">3:00</div>
             <div className="text-gray-700">Minutes</div>
           </div>
         </div>
