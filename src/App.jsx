@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 p-4">
-      <Timer duration={600} onTimeUp={handleTimeUp} />
+      <Timer duration={180} onTimeUp={handleTimeUp} />
       <ProgressBar current={currentIndex + 1} total={questionsData.length} />
       <Questions
         question={questionsData[currentIndex]}
